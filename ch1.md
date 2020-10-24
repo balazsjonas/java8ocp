@@ -40,6 +40,45 @@ interface StaticInInterface {
 
 #### Class members
 ##### Access modifiers
+* **public** member can be referenced or inherited if the class is visible
+* **private** member
+  * cannot be accesed by any code regardless of the visibility.
+  * cannot be inherited
+    * cannot be overriden
+  * method with the same name does not override the method in subclass
+    * eg. no restriction on return type, parameter types, and on exceptions
+* **protected** and default access
+  * difference only when talking about subclasses
+  * default member: same package only
+  * protected member:
+    * can be accessd through inheritance even from different package
+    * the subclass inherits the member
+    * but subclass cannot access the member through reference (as if it were public)
+    * not visible outside of child classes
+```java
+package parent;
+public class Parent {
+  protected int secret;
+}
+```
+```java
+package child;
+public class Child extends Parent{ 
+  public void doSomething() {
+    int y = secret; // implicitly super.secret;
+  } 
+}
 
+class Neighbor {
+  public void doSomething() {
+    Child child = new Child();
+    // although 'secret' is protected in Child
+    // and Neighbor is in the same package
+    // 'secret' became private for Neighbor 
+  }
+}
+```
 
-
+  
+  
+  
