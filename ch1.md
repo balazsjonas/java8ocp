@@ -44,7 +44,7 @@ interface StaticInInterface {
 * **private** member
   * cannot be accesed by any code regardless of the visibility.
   * cannot be inherited
-    * cannot be overriden
+    * cannot be overridden
   * method with the same name does not override the method in subclass
     * eg. no restriction on return type, parameter types, and on exceptions
 * **protected** and default access
@@ -79,6 +79,11 @@ class Neighbor {
 }
 ```
 
-  
-  
+##### Non-Access member modifiers
+* **final** methods
+* **final** arguments
+  * cannot be modified within the method
+  * (which means it cannot be reassigned a new value)
+* **abstract** method
+  * cannot be **final**, **private** or **static**
   
