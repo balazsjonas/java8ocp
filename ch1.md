@@ -86,4 +86,38 @@ class Neighbor {
   * (which means it cannot be reassigned a new value)
 * **abstract** method
   * cannot be **final**, **private** or **static**
+* **synchronized** method
+
+#### Var-args
+* argument: The things between parentheses when invoking a method
+* parameter: The things in the method's signature
+* counter examples:
+  * void doStuff(int x...)
+  * void doStuff(int... x, char...ch)
+  * void doStuff(int... x, String s)
+
+#### Constructor declarations
+* cannot be overridden
+
+#### Numbers
+* byte
+  * 7 bits + sign
+  * -128 ... 127
+  * -2^7 ... (2^7-1)
+* short: 16 bits = 15 bit + sign
+* int: 32 bits
+* long: 64 bits
+* in general: half of them negative, half-1 are positive
+* char: 2-byte Unicode character
+  * it can be assigned to int or long
+
+#### Instance vs local variables
+* local variables are always on the stack
+* if the variable is a reference, the object itself will be on the heap
+* "local object" means "locally declared reference variable"!
+* local variable must be initialized before use
+* local variable doesn't get default value
+
+
+
   

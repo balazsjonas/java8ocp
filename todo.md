@@ -4,3 +4,10 @@
   * overloading???
 * protected member is visible only in a specific way through inheritance
 * inherited protected member becomes private to any other code outside the subclass
+* in top-level classes abstract cannot be static?
+* argument: The things between parentheses when invoking a method
+* parameter: The things in the method's signature
+* constructor cannot be overridden
+* number ranges
+* stack vs heap
+* local variables must be initialized before use
