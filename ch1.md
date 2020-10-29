@@ -118,6 +118,13 @@ class Neighbor {
 * local variable must be initialized before use
 * local variable doesn't get default value
 
-
+#### Arrays
+* declaration:
+  * `int[] key`; or c style `int key[]`
+  * illegal: `int[5] key`
+  * JVM doesn't allocate space until the array object is instantiated 
 
   
+* todo: declare, construct, initialize
+* the array itself is an object on the heap
+
