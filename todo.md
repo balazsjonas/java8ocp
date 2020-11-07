@@ -11,3 +11,5 @@
 * number ranges
 * stack vs heap
 * local variables must be initialized before use
+* inner enum( optional semicolon, referencing)
+* implementing class does not have to declare exceptions of the interface

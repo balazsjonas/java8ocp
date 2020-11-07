@@ -117,6 +117,7 @@ class Neighbor {
 * "local object" means "locally declared reference variable"!
 * local variable must be initialized before use
 * local variable doesn't get default value
+* final instance variable must be initialized before the constructor completes
 
 #### Arrays
 * declaration:
@@ -128,3 +129,29 @@ class Neighbor {
 * todo: declare, construct, initialize
 * the array itself is an object on the heap
 
+#### Statics
+* methods, variables, initialization blocks, nested class (but not within method)
+
+#### Enums
+* enclosing class name required if enum is declared inside of a class
+* semicolon is optional after declaration inside of a class when no other declarations
+```
+class External {
+    enum CoffeeSize{SMALL, LARGE};  // semicolon is optional!!!
+}
+public class Main {
+    public static void main(String[] args) {
+        External.CoffeeSize size = External.CoffeeSize.LARGE>
+    }
+}
+```
+* constant specific class body
+```
+enum CoffeSize {
+    SMALL(1),
+    LARGE(10) {
+        public int getSize() { return 123; }
+    };
+    public int getSize()  { return 1;}
+}
+```
