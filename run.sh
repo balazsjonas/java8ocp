@@ -11,3 +11,8 @@ java ch1.other.Example2Access
 javac ch1/Box.java
 javac ch1/Example3.java
 java ch1.Example3
+
+# overriding
+javac ch2/Overriding.java
+java ch2.Overriding
+
