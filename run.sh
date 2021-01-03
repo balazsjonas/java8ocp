@@ -15,4 +15,7 @@ java ch1.Example3
 # overriding
 javac ch2/Overriding.java
 java ch2.Overriding
-
+javac ch2/Multiple.java
+javac ch2/Covariant.java
+javac ch2/Constructor.java
+java ch2.Constructor

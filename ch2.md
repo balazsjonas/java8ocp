@@ -29,3 +29,15 @@
 **
 * overridden: runtime, based on object type
 * overloading: compile time, based on reference type**
+
+#### Return types
+* what can be declared
+* what can be returned as a value
+
+* for primitive return types: 
+  * anything that can be implicitly converted (eg. char->int, int -> float)
+  * anything that can be explicitly converted, but cast is needed (eg. float -> int)
+  
+#### Constructors
+* default constructor has the same access modifier as the class
+* constructors are never inherited

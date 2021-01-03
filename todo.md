@@ -13,9 +13,8 @@
 * local variables must be initialized before use
 * inner enum( optional semicolon, referencing)
 * implementing class does not have to declare exceptions of the interface
-
 * default method vs multiple inheritance
-
 * "an overriding method
    doesn't have to declare any exceptions that it will never throw, regardless of
    what the overridden method declares"
+*  default constructor has the same access modifier as the class
