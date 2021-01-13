@@ -41,3 +41,18 @@
 #### Constructors
 * default constructor has the same access modifier as the class
 * constructors are never inherited
+* constructors can be directly invoked only by other constructor!
+
+#### Initialization block
+* order
+  * static initialization block
+  * super()
+  * initialization block
+  * constructor
+* ExceptionInInitializerError
+
+#### Statics
+* interface static methods
+  * interface's name must be used
+  * cannot invoke on instance
+* static method cannot be overridden, but can be redefined!!

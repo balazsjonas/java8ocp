@@ -19,3 +19,7 @@ javac ch2/Multiple.java
 javac ch2/Covariant.java
 javac ch2/Constructor.java
 java ch2.Constructor
+javac ch2/Init.java
+java ch2.Init
+javac ch2/Static.java
+java ch2.Static

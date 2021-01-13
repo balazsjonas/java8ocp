@@ -17,4 +17,5 @@
 * "an overriding method
    doesn't have to declare any exceptions that it will never throw, regardless of
    what the overridden method declares"
-*  default constructor has the same access modifier as the class
+* default constructor has the same access modifier as the class
+* constructors can be directly invoked only by other constructor!
