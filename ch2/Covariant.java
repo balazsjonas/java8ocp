@@ -1,29 +1,29 @@
 package ch2;
 
-class Covariant extends Mid {
+class Covariant extends CovMid {
   @java.lang.Override
   ch2.Covariant method() {
     return null;
   }
 }
 
-class Top extends Mid {
+class Top extends CovMid {
 
   @java.lang.Override
-  ch2.Mid method() {
+  CovMid method() {
     return null;
   }
 }
-class Mid extends Base {
+class CovMid extends CovBase {
 
   @java.lang.Override
-  ch2.Mid method() {
+  CovMid method() {
     return null;
   }
 }
-class Base {
+class CovBase {
 
-  Base method() {
+  CovBase method() {
     return null;
   }
 
