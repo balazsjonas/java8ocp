@@ -21,3 +21,6 @@
 * constructors can be directly invoked only by other constructor!
 * it is legal to assign new value toa a single catch parameter !!!
 * catching base class!
+* try-with-resource custom finally, but both get called
+* Suppressed Exceptions
+* if the catch of finally block throws an exception, no suppressions happenn!
