@@ -19,3 +19,6 @@
 * `System.out.println(cestStart);`
 * `System.out.println(cestStart.plus(Period.ofDays(1)));` +1 nap ugyanaz az óra
 * `System.out.println(cestStart.plus(Duration.ofDays(1)));` + 24 óra (Zona szerint)
+
+* `Locale(String language)`
+* `Locale(String language, String country)`
