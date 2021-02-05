@@ -24,3 +24,5 @@
 * try-with-resource custom finally, but both get called
 * Suppressed Exceptions
 * if the catch of finally block throws an exception, no suppressions happenn!
+* resource bundle search order and hierarchy
+* ListResourceBundle and PropertyResourceBundle do not share a hierarchy
