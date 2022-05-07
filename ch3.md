@@ -7,7 +7,8 @@
   * by exact class
   * by package (+subpackages)
   * for systemclasses (-dsa)
-* inappropiate uses (by Oracle)
+  * example: `java -ea:com.example... -da:com.example.TheExample Main`
+* inappropriate uses (by Oracle)
   * assert argument of public method (assert can be switched off)
   * validation of command line arguments
   * expression with side effect
@@ -30,7 +31,7 @@
     * AutoCloseable --> any Exception
   * Closeable::close() is required to be idempotent
     * for AutoCloseable::close there is no guaranteed
-  * if the catch of finally block throws an exception, no suppressions happenn!
+  * if the catch of finally block throws an exception, no suppressions happen!
   
   
   

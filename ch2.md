@@ -19,16 +19,16 @@
 * accessing interface's method: `InterfaceX.super.method()`
 
 * Overloading rules:
-  * same argument list
-  * covariant return type
+  * must change argument list
+  * any return type
   * any access modifier
   * can declare any exception
   * a method can be overloaded in a subtype
   * reference type determines which version is called
   
-**
+
 * overridden: runtime, based on object type
-* overloading: compile time, based on reference type**
+* overloading: compile time, based on reference type
 
 #### Return types
 * what can be declared
